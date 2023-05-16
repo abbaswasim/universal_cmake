@@ -1,13 +1,9 @@
 # Universal build CMake Template
 Simplest cmake C++ project template that that you can use to build universal binaries
 
-# Build
-
 ## Build 
 
 `rf build && cmake -H. -Bbuild -DCMAKE_OSX_ARCHITECTURES="arm64;x86_64;x86_64h" && cmake --build build -- -j$NUMCPUS`
-
-# Build
 
 ## Test using Lipo
 
